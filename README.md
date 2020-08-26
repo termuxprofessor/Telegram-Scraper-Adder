@@ -36,7 +36,7 @@
 
 `$ git clone https://github.com/termuxprofessor/TeleGram-Scraper-Adder.git`
 
-`$ cd Telegram-Scraper-Adder
+`$ cd Telegram-Scraper-Adder`
 
 * Install requierments & Setup Configuration File. ( apiID, apiHash )
 
@@ -48,7 +48,7 @@
 
 * Add Scarped members to your group. 
 
-`$ python adder.py
+`$ python adder.py`
 
 ---
 
