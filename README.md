@@ -36,6 +36,8 @@
 
 `$ git clone https://github.com/termuxprofessor/TeleGram-Scraper-Adder.git`
 
+`$ cd Telegram-Scraper-Adder
+
 * Install requierments & Setup Configuration File. ( apiID, apiHash )
 
 `$ python setup.py`
