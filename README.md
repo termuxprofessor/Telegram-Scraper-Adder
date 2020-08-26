@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/.image/20191203_205322.jpg" width="470" height="150">
+  <img src="https://1.bp.blogspot.com/-bMerZKbriRY/X0YzqiPFCsI/AAAAAAAAAP8/1GHlVlmMGcQsHu8cxeK1o5WkTe2VeXlDgCLcBGAsYHQ/s1652/Picture_20200826_152605754.jpg" width="470" height="150">
 </p>
 
-<p align="center"><img src="https://img.shields.io/badge/Version-3.1-brightgreen"></p>
+<p align="center"><img src="https://img.shields.io/badge/Version-1.01-brightgreen"></p>
 <p align="center">
-  <a href="https://github.com/th3unkn0n">
+  <a href="https://github.com/termuxprofessor">
     <img src="https://img.shields.io/github/followers/th3unkn0n?label=Follow&style=social">
   </a>
-  <a href="https://github.com/th3unkn0n/TeleGram-Group-Scraper">
+  <a href="https://github.com/termuxprofessor/Telegram-Scraper-Adder">
     <img src="https://img.shields.io/github/stars/th3unkn0n/TeleGram-Group-Scraper?style=social">
   </a>
 </p>
 <p align="center">
-  Telegram Group Scrapper
+  Telegram Scraper Adder
 </p>
 <p align="center">
   wtf, atlest just fuking ⭐ star ⭐ it
@@ -26,34 +26,27 @@
 * put app name you want & select other in platform Example :
 * copy "api_id" & "api_hash" after clicking create app ( will be used in setup.py )
 
-## • How To Install and Use
+## • How To Install and Use In Termux
 
-`$ pkg install -y git python`
+`$ pkg up -y`
 
-`$ git clone https://github.com/th3unkn0n/TeleGram-Scraper.git`
+`$ pkg install python -y`
 
-`$ cd TeleGram-Scraper`
+`$ pkg install git`
 
-* Install requierments
+`$ git clone https://github.com/termuxprofessor/TeleGram-Scraper-Adder.git`
 
-`$ python3 setup.py -i`
+* Install requierments & Setup Configuration File. ( apiID, apiHash )
 
-* setup configration file ( apiID, apiHASH )
+`$ python setup.py`
 
-`$ python3 setup.py -c`
+* To Scare members from group.
 
-* To Genrate User Data
+`$ python scraper.py`
 
-`$ python3 scraper.py`
+* Add Scarped members to your group. 
 
-* ( members.csv is default if you changed name use it )
-* Send Bulk sms To Collected Data 
-
-`$ python3 smsbot.py members.csv`
-
-* Update Tool
-
-`$ python3 setup.py -u`
+`$ python adder.py
 
 ---
 
@@ -61,9 +54,9 @@
   Follow Me On
 </p>
 <p align="center">
-  <a href="https://youtube.com/theunknon">
+  <a href="https://www.youtube.com/c/TermuxProfessor">
     <img src="https://github.com/th3unkn0n/extra/blob/master/.img/yt.png" width="40" height="40">
   </a>
-  <a href="https://instagram.com/th3unkn0n">
+  <a href="https://www.instagram.com/termuxprofessor/">
     <img src="https://github.com/th3unkn0n/extra/blob/master/.img/ig.png" width="40" height="40">
 </p>
