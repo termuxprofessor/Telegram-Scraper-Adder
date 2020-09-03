@@ -50,9 +50,8 @@
 
 `$ python adder.py`
 
-## • Watch Video Tutorial 
-
-https://youtu.be/hNztfzMMPOc
+## • Watch Video Tutorial From Below
+* https://youtu.be/hNztfzMMPOc
 ---
 
 <p align="center">
