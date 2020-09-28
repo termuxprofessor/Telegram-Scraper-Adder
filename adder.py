@@ -21,7 +21,7 @@ print (re+" ╩ └─┘┴─┘└─┘╚═╝  ╩ ╩─┴┘─┴┘�
 
 print (cy+"version : 1.01")
 print (cy+"Make sure you Subscribed Termux Professor On Youtube")
-print (cy+"www.youtube.com/c/TermuxProfessor")
+print (cy+"www.youtube.com/c/TermuxProfessorYT")
 
 print (re+"NOTE :")
 print ("1. Telegram only allow to add 200 members in group by one user.")
