@@ -21,7 +21,7 @@ def banner():
 	
 	           Version : 1.01
 	{re}Subscribe Termux Professor on Youtube
-	{cy}www.youtube.com/c/TermuxProfessor
+	{cy}www.youtube.com/c/TermuxProfessorYT
 	""")
 banner()
 print(gr+"[+] Installing requierments ...")
