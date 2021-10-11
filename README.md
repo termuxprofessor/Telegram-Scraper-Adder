@@ -42,7 +42,7 @@
 
 `$ python setup.py`
 
-* To Scare members from group.
+* To Scarpe members from group.
 
 `$ python scraper.py`
 
