@@ -3,7 +3,7 @@
 
 """
 
-you can re run setup.py 
+you can re run setup.py
 if you have added some wrong value
 
 """
@@ -18,7 +18,7 @@ def banner():
 	{re}╔═╗{cy}┌─┐┌┬┐┬ ┬┌─┐
 	{re}╚═╗{cy}├┤  │ │ │├─┘
 	{re}╚═╝{cy}└─┘ ┴ └─┘┴
-	
+
 	           Version : 1.01
 	{re}Subscribe Termux Professor on Youtube
 	{cy}www.youtube.com/c/TermuxProfessorYT

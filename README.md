@@ -46,7 +46,7 @@
 
 `$ python scraper.py`
 
-* Add Scarped members to your group. 
+* Add Scarped members to your group.
 
 `$ python adder.py`
 

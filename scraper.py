@@ -41,14 +41,14 @@ if not client.is_user_authorized():
     os.system('clear')
     banner()
     client.sign_in(phone, input(gr+'[+] Enter the code: '+re))
- 
+
 os.system('clear')
 banner()
 chats = []
 last_date = None
 chunk_size = 200
 groups=[]
- 
+
 result = client(GetDialogsRequest(
              offset_date=last_date,
              offset_id=0,
@@ -57,29 +57,29 @@ result = client(GetDialogsRequest(
              hash = 0
          ))
 chats.extend(result.chats)
- 
+
 for chat in chats:
     try:
         if chat.megagroup== True:
             groups.append(chat)
     except:
         continue
- 
+
 print(gr+'[+] Choose a group to scrape members :'+re)
 i=0
 for g in groups:
     print(gr+'['+cy+str(i)+']' + ' - ' + g.title)
     i+=1
- 
+
 print('')
 g_index = input(gr+"[+] Enter a Number : "+re)
 target_group=groups[int(g_index)]
- 
+
 print(gr+'[+] Fetching Members...')
 time.sleep(1)
 all_participants = []
 all_participants = client.get_participants(target_group, aggressive=True)
- 
+
 print(gr+'[+] Saving In file...')
 time.sleep(1)
 with open("members.csv","w",encoding='UTF-8') as f:
@@ -99,5 +99,5 @@ with open("members.csv","w",encoding='UTF-8') as f:
         else:
             last_name= ""
         name= (first_name + ' ' + last_name).strip()
-        writer.writerow([username,user.id,user.access_hash,name,target_group.title, target_group.id])      
+        writer.writerow([username,user.id,user.access_hash,name,target_group.title, target_group.id])
 print(gr+'[+] Members scraped successfully. Subscribe Termux Professor Youtube Channel For Add Members')
