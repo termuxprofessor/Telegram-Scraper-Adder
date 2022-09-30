@@ -40,7 +40,6 @@ try:
     client = TelegramClient(phone, api_id, api_hash)
 except KeyError:
     os.system('clear')
-    banner()
     print(re+"[!] run python setup.py first !!\n")
     sys.exit(1)
 
@@ -48,7 +47,6 @@ client.connect()
 if not client.is_user_authorized():
     client.send_code_request(phone)
     os.system('clear')
-    banner()
     client.sign_in(phone, input(gr+'[+] Enter the code: '+re))
 
 users = []
